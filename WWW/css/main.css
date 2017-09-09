@@ -1,27 +1,37 @@
 .menuBar a{
-    border: 1px solid white;
-    color: black;
+    border: 1px solid rgb(120,120,120);
+    color: rgb(240,240,240);
     padding: 20px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 19px;
     margin-left: -5px;
-    font-family: "Carbon";
+    font-family: "acid";
     border-top: 0px;
     max-width: 60px;
     min-width: 60px;
+    max-height: 20px;
+    min-height: 20px;
+    border-bottom: 0px;
+    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+    letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 .menuBar a:hover{
-    background-color: rgba(153,153,200,1);
+    background-color: rgb(153,153,200);
 }
 
 .menuBar{
     text-align: center;
     width: 100%;
     background-color: rgb(153,153,153);
-    
+    max-height: 60px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+
 }
 
 body{
@@ -29,38 +39,14 @@ body{
     margin: 0px;
 }
 
-.content {
-    width: 100%;
-    overflow: hidden;
+@font-face{
+    font-family: "acid";
+    src: url(fonts/carbon.ttf);
 }
-
-#left, #middle, #right{
-    float: left;
-    height: 1000px;
-    width: 19%;
-    margin: 3%;
-    background-color: rgb(153,153,153);
-}
-
-#left{
-    margin-left: 5%;
-    margin-right: 1%;
-}
-
-#right{
-    margin-right: 5%;
-    margin-left: 1%;
-}
-
-
-#middle{
-    width: 44%;
-    margin: 3%;
-}
-
 
 @font-face{
-    font-family: "Carbon";
-    src: url(fonts/carbon%20bl.ttf);
+    font-family: "acid";
+    src: url(fonts/ap.ttf);
 }
+
 

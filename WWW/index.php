@@ -7,18 +7,18 @@
         <meta name="keywords" content="Tilt, Crew">
         <meta name="author" content="SY15">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/twosidebars.css">
         <script type="text/javascript" src="script/main.js"></script>
     </head>
     <body>
     <?php
     include "include/menu.php";
     ?>
-    
-    <br>
+
     <div class="content">
         <div id="left">
             <div>
-            
+                
             </div>
         </div>
         <div id="middle">
