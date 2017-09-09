@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} .htaccess
+RewriteRule .htaccess http://localhost/
+
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+
+ErrorDocument 403 http://localhost/
+ErrorDocument 404 http://localhost/
