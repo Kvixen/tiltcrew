@@ -12,4 +12,17 @@
     <?php
     include "include/menu.php";
     ?>
+    
+    
+    <div class="content">
+        <div id="left">
+        
+        </div>
+        <div id="middle">
+        
+        </div>
+        <div id="right">
+        
+        </div>
+    </div>
 </html>

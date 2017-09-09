@@ -1,14 +1,16 @@
 .menuBar a{
     border: 1px solid white;
     color: black;
-    padding: 15px 32px;
+    padding: 20px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin-left: -5px;
-    padding-bottom: 20px;
     font-family: "Carbon";
+    border-top: 0px;
+    max-width: 60px;
+    min-width: 60px;
 }
 
 .menuBar a:hover{
@@ -17,14 +19,29 @@
 
 .menuBar{
     text-align: center;
-    width: 110%;
-    margin-left: -5%;
-    margin-top: -10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
     background-color: rgb(153,153,153);
+    
 }
 
 body{
-    background: url(../pictures/tempbackground.jpg)
+    background-color: gray;
+}
+
+.content:after{
+    display: block;
+    height: 0px;
+    clear: both;
+    float: none;
+}
+.content 
+#left{
+    background-color: aqua;
 }
 
 
