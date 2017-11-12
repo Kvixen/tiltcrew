@@ -36,13 +36,14 @@
                         </a>
                     </div>  
                     <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-google-plus" data-toggle="tooltip" data-placement="top" title="Google Plus">
-                            <i class="fa fa-google-plus fa-2x"></i>
+                        <a href="#" class="btn btn-lg btn-block kpx_btn-steam" data-toggle="tooltip" data-placement="top" title="Steam">
+                            <i class="fa fa-steam fa-2x"></i>
                             <span class="hidden-xs"></span>
                         </a>
                     </div>  
                 </div><br>
                 <!--Next row of social media buttons-->
+                <!--Example row so we can use it
                 <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
                     <div class="col-xs-2 col-sm-2">
                         <a href="#" class="btn btn-lg btn-block kpx_btn-github" data-toggle="tooltip" data-placement="top" title="GitHub">
@@ -63,70 +64,8 @@
                         </a>
                     </div> 
                 </div><br>
-                <!--Next row of social media buttons-->
-                <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest">
-                            <i class="fa fa-pinterest fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-vimeo" data-toggle="tooltip" data-placement="top" title="Vimeo">
-                            <i class="fa fa-vimeo-square fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>  
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-lastfm" data-toggle="tooltip" data-placement="top" title="Lastfm">
-                            <i class="fa fa-lastfm fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div> 
-                </div><br>
-                <!--Next row of social media buttons-->
-                <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-yahoo" data-toggle="tooltip" data-placement="top" title="Yahoo">
-                            <i class="fa fa-yahoo fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-vk" data-toggle="tooltip" data-placement="top" title="VKontakte">
-                            <i class="fa fa-vk fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>  
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-spotify" data-toggle="tooltip" data-placement="top" title="Spotify">
-                            <i class="fa fa-spotify fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div> 
-                </div><br>
-                <!--Next row of social media buttons-->
-                <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn">
-                            <i class="fa fa-linkedin fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-stumbleupon" data-toggle="tooltip" data-placement="top" title="Stumble Upon">
-                            <i class="fa fa-stumbleupon fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>  
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-tumblr" data-toggle="tooltip" data-placement="top" title="Tumblr">
-                            <i class="fa fa-tumblr fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div> 
-                </div>
-                <!--Login form-->
+
+                Login form-->
                 <div class="row kpx_row-sm-offset-3 kpx_loginOr">
                     <div class="col-xs-12 col-sm-6">
                         <hr class="kpx_hrOr">
@@ -141,21 +80,20 @@
                                 <span class="input-group-addon"><span class="fa fa-user"></span></span>
                                 <input type="text" class="form-control" name="username" placeholder="Username">
                             </div>
-                            <hr />
+                            <br>
 										
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="fa fa-key"></span></span>
                                 <input  type="password" class="form-control" name="password" placeholder="Password">
                             </div>
-                            <span class="tag tag-danger">Password Error!</span> | <span class="tag tag-success">Login success!</span> | <span class="tag tag-warning">Some of password must not be empty!</span>
-                            <hr />
-                            <button class="btn btn-lg btn-outline-primary btn-block" type="submit"><i class="fa fa-sign-in"></i> Login</button>
+                            <hr class="tlt_seperator"/>
+                            <button class="btn btn-lg btn-outline-primary btn-block tlt_loginButton" type="submit"><i class="fa fa-sign-in"></i> Login</button>
                         </form>
                     </div>
                 </div>
                 <div class="row kpx_row-sm-offset-3">
                     <div class="col-xs-12 col-sm-3">
-                        <p>
+                        <p class="tlt_loginText">
                             <label class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input" value="remember-me">
                                 <span class="custom-control-indicator"></span>
@@ -168,10 +106,6 @@
                             <a href="#">Forgot password?</a>
                         </p>
                     </div>
-                    
-                    <div class="col-lg-12">
-                        <p class="text-lg-center text-md-center text-sm-center text-xs-center">Created by <a href="http://www.koalapix.com" target="_blank">koalapix. studio</a>, for crazy developers...</p>
-                    </div>
                 </div>	    	
             </div>
     
@@ -180,10 +114,10 @@
 
         </div>
         <script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
