@@ -24,13 +24,13 @@
                 <a class="nav-link" href="#">Social</a>
             </li>
             <li class="SelfLink nav-item">
-                <a class="nav-link" href="#">Join us</a>
-            </li>
-            <li class="SelfLink nav-item">
                 <a class="nav-link" href="#">Members</a>
             </li>
             <li class="SelfLink nav-item">
                 <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="SelfLink nav-item">
+                <a class="nav-link" href="login.php">Join us</a>
             </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

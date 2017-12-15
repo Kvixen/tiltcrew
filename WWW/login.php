@@ -17,7 +17,7 @@
         <?php include('include/navbar.php'); ?>
         <div class="container tlt_loginForm">
             <div class="kpx_login">
-                <h3 class="kpx_authTitle">Login or <a href="#">Sign up</a></h3>
+                <h3 class="kpx_authTitle">Login or <a href="register.php">Sign up</a></h3>
                 <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
                     <div class="col-xs-2 col-sm-2">
                         <a href="#" class="btn btn-lg btn-block kpx_btn-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
