@@ -13,16 +13,15 @@
     </head>
     <body>
         <nav class="SelfNavbar navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-          <a class="SelfBrand navbar-brand" href="#">
-              <img src="assets/TILT.png" width="40px" height="25px" class="d-inline-block align-top" alt="">TILT Crew</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="SelfBrand navbar-brand" href="#">
+                <img src="assets/TILT.png" width="40px" height="25px" class="d-inline-block align-top" alt="">TILT Crew</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="SelfLinks navbar-nav mr-auto">
-                  <li class="nav-item dropdown">
-                    <a class="SelfDropdown nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Games</a>
+                    <li class="nav-item dropdown">
+                        <a class="SelfDropdown nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Games</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="#">Destiny 2</a>
                       <a class="dropdown-item" href="#">Overwatch</a>
@@ -49,24 +48,20 @@
                   <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
                   <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
                 </form>
-              </div>
             </div>
         </nav>
         <div class="container-fluid">
             <div class="row SelfTopBuffer">
-                <div class="col-lg">
-                    <div class="row">
-                        <div class="col-lg-1"></div>
-                        <div class="col-lg-9 SelfContent"></div>
-                        <div class="col-lg-2"></div>
-                    </div>
-                </div>
-                <div class="col-lg-5 SelfContent"></div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6 SelfContent"></div>
                 <div class="col-lg">
                     <div class="row">
                         <div class="col-lg-2"></div>
-                        <div class="col-lg-9 SelfContent"></div>
-                        <div class="col-lg-1"></div>
+                        <div class="SelfContent col-lg-8 embed-responsive embed-responsive 16by9">
+                            <iframe src="http://discordi.deliriousdrunkards.com/render?id=175704217074401280&title=TILT Crew&theme=dark&join=true&abc=false&showall=false&toggle=false&shownick=true" width="300px" height="400px" frameborder="0">
+                                <p>Your browser doesn't support iframes</p>
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
