@@ -1,52 +1,204 @@
-.menuBar a{
-    border: 1px solid rgb(120,120,120);
-    color: rgb(240,240,240);
-    padding: 20px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 19px;
-    margin-left: -5px;
+@font-face{
     font-family: "acid";
-    border-top: 0px;
-    max-width: 60px;
-    min-width: 60px;
-    max-height: 20px;
-    min-height: 20px;
-    border-bottom: 0px;
-    text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
-    letter-spacing: 1px;
-    white-space: nowrap;
+    src: url("css/fonts/acid.otf");
 }
 
-.menuBar a:hover{
-    background-color: rgb(153,153,200);
-}
-
-.menuBar{
-    text-align: center;
-    width: 100%;
-    background-color: rgb(153,153,153);
-    max-height: 60px;
-    overflow: hidden;
-    display: inline-block;
-    position: relative;
-
+@font-face{
+    font-family: "bebas";
+    src: url("css/fonts/BebasNeue.otf");
 }
 
 body{
-    background-color: gray;
-    margin: 0px;
+    background-color: rgb(80,80,80);
+}
+
+.SelfNavbar{
+    background-color: rgb(153,153,153);
+    font-family: "bebas";
+}
+
+.SelfBrand{
+    margin-left: 10px;
+}
+
+.SelfLinks{
+    margin-left: 400px;
+    font-family: "bebas";
+}
+
+.SelfLinks a:hover{
+    
+}
+
+.SelfContent{
+    background-color: rgb(153,153,153);
+    min-height: 800px;
+}
+
+.SelfTopBuffer{
+    margin-top: 50px;
+}
+
+.tlt_articleTitle{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 130%;
+    vertical-align: middle;
 }
 
 @font-face{
     font-family: "acid";
-    src: url(fonts/carbon.ttf);
+    src: url("css/fonts/acid.otf");
+}
+
+@font-face{
+    font-family: "bebas";
+    src: url("css/fonts/BebasNeue.otf");
+}
+
+body{
+    background-color: rgb(80,80,80);
+}
+
+.SelfNavbar{
+    background-color: rgb(153,153,153);
+    font-family: "bebas";
+}
+
+.SelfBrand{
+    margin-left: 10px;
+}
+
+.SelfLinks{
+    margin-left: 400px;
+    font-family: "bebas";
+}
+
+.SelfLinks a:hover{
+    
+}
+
+.SelfContent{
+    background-color: rgb(153,153,153);
+    min-height: 800px;
+}
+
+.SelfTopBuffer{
+    margin-top: 50px;
+}
+
+.tlt_articleTitle{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 130%;
+    vertical-align: middle;
 }
 
 @font-face{
     font-family: "acid";
-    src: url(fonts/ap.ttf);
+    src: url("css/fonts/acid.otf");
 }
 
+@font-face{
+    font-family: "bebas";
+    src: url("css/fonts/BebasNeue.otf");
+}
+
+body{
+    background-color: rgb(80,80,80);
+}
+
+.SelfNavbar{
+    background-color: rgb(153,153,153);
+    font-family: "bebas";
+}
+
+.SelfBrand{
+    margin-left: 10px;
+}
+
+.SelfLinks{
+    margin-left: 400px;
+    font-family: "bebas";
+}
+
+.SelfLinks a:hover{
+    
+}
+
+.SelfContent{
+    background-color: rgb(153,153,153);
+    min-height: 800px;
+}
+
+.SelfTopBuffer{
+    margin-top: 50px;
+}
+
+.tlt_articleTitle{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 130%;
+    vertical-align: middle;
+}
+
+@font-face{
+    font-family: "acid";
+    src: url("css/fonts/acid.otf");
+}
+
+@font-face{
+    font-family: "bebas";
+    src: url("css/fonts/BebasNeue.otf");
+}
+
+body{
+    background-color: rgb(80,80,80);
+}
+
+.SelfNavbar{
+    background-color: rgb(153,153,153);
+    font-family: "bebas";
+}
+
+.SelfBrand{
+    margin-left: 10px;
+}
+
+.SelfLinks{
+    margin-left: 400px;
+    font-family: "bebas";
+}
+
+.SelfLinks a:hover{
+    
+}
+
+.SelfContent{
+    background-color: rgb(153,153,153);
+    min-height: 800px;
+}
+
+.SelfTopBuffer{
+    margin-top: 50px;
+}
+
+.tlt_articleTitle{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    font-size: 130%;
+    vertical-align: middle;
+}
 
