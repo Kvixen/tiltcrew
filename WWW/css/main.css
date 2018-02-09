@@ -1,11 +1,11 @@
 @font-face{
     font-family: "acid";
-    src: url("css/fonts/acid.otf");
+    src: url("fonts/acid.otf");
 }
 
 @font-face{
     font-family: "bebas";
-    src: url("css/fonts/BebasNeue.otf");
+    src: url("fonts/BebasNeue.otf");
 }
 
 body{
@@ -22,12 +22,7 @@ body{
 }
 
 .SelfLinks{
-    margin-left: 400px;
     font-family: "bebas";
-}
-
-.SelfLinks a:hover{
-    
 }
 
 .SelfContent{
@@ -48,4 +43,5 @@ body{
     font-size: 130%;
     vertical-align: middle;
 }
+
 

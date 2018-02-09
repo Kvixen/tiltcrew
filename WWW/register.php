@@ -1,3 +1,4 @@
+<?php include('include/server.php') ?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -18,9 +19,7 @@
         <div class="container tlt_loginForm">
             <div class="kpx_login">
                 <h3 class="kpx_authTitle">Welcome!</h3>
-                <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
-
-                </div><br>
+                <?php include('include/errors.php') ?>
                 <!--Next row of social media buttons-->
                 <!--Example row so we can use it
                 <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
@@ -54,7 +53,7 @@
 
                 <div class="row kpx_row-sm-offset-3">
                     <div class="col-xs-12 col-sm-6">	
-                        <form class="kpx_loginForm" action="" autocomplete="off" method="POST">
+                        <form class="kpx_loginForm" action="register.php" autocomplete="on" method="POST">
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="fa fa-user"></span></span>
                                 <input type="text" class="form-control" name="username" placeholder="Username">
@@ -77,21 +76,21 @@
                             <br>		
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="fa fa-key"></span></span>
-                                <input  type="password" class="form-control" name="password" placeholder="Confirm Password">
+                                <input  type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password">
                             </div>
                             <br>		
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="fa fa-envelope"></span></span>
-                                <input  type="name" class="form-control" name="password" placeholder="Email">
+                                <input  type="name" class="form-control" name="email" placeholder="Email">
                             </div>
                             <br>		
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="fa fa-envelope"></span></span>
-                                <input  type="name" class="form-control" name="password" placeholder="Confirm Email">
+                                <input  type="name" class="form-control" name="confirmEmail" placeholder="Confirm Email">
                             </div>
                             
                             <hr class="tlt_seperator"/>
-                            <button class="btn btn-lg btn-outline-primary btn-block tlt_loginButton" type="submit"><i class="fa fa-flag"></i> Register</button>
+                            <button class="btn btn-lg btn-outline-primary btn-block tlt_loginButton" type="submit" name="reg_user"><i class="fa fa-flag"></i> Register</button>
                         </form>
                     </div>
                 </div>
