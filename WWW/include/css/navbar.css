@@ -1,5 +1,97 @@
-.abs-center-x {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+/*Global variables, please declare with descriptive name*/
+:root{
+    /*Edges of navbar button color*/
+    --nav-btn-border: #505050;
+    /*Background of navbar*/
+    --nav-bg-color: #999999;
+    /*Animation gradient*/
+    --nav-btn-hover-gradient-start: #404040;
+    --nav-btn-hover-gradient-stop: #999999;
 }
+
+/*Font families*/
+@font-face{
+    font-family: "bebas";
+    src: url("../css/fonts/BebasNeue.otf");
+}
+
+/*Remove the blue outline that bootstrap gives its buttons (I fucking hate it and I will kill the person that re-enables it)*/
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+    
+}
+
+/*Removing the default bootstrap padding on a navbar (Only top and bottom)*/
+.navbar{
+    padding-bottom: 0;
+    
+    padding-top: 0;
+    background: linear-gradient(var(--nav-btn-hover-gradient-stop),var(--nav-btn-hover-gradient-start));
+    background-size:1px 200px;
+}
+
+/*
+'Hack' to make the buttons cover entire navbar instead of just the center of it
+Also, all the cool border and animations for buttons! Yippe
+*/
+.nav-item{
+    /*Hack*/
+    padding: 10px; /*This changes the height of the entire navbar**/
+    width: 102px;
+    
+    
+    
+    /*Styling for buttons*/
+    border-color: var(--nav-btn-border);
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    font: bebas;
+    
+    /*Animation - This is fucking copied from the internet so unless you're fucking god dont touch it. DONT. JUST FUCKI- NO! DONT! STOP READING JUST IGNORE ALL THIS. I. DONT. WANT. TO. SEE. YOUR. CURSOR. ON. THIS. SHIT*/
+    /*
+    This is a workaround for a gradient animation as they are not supported.
+    If you wanna understand how this works, I will try to walk you through it
+    I first create a linear-gradient. This is set as the background.
+    
+    */
+    background: -webkit-linear-gradient(var(--nav-btn-hover-gradient-stop),var(--nav-btn-hover-gradient-start));
+    background: -moz-linear-gradient(var(--nav-btn-hover-gradient-stop),var(--nav-btn-hover-gradient-start));
+    background: -o-linear-gradient(var(--nav-btn-hover-gradient-stop),var(--nav-btn-hover-gradient-start));
+    background: linear-gradient(var(--nav-btn-hover-gradient-stop),var(--nav-btn-hover-gradient-start));
+        
+    /*
+    You then tell it that the background should easy out in a certain amount of time.
+    */
+    -webkit-transition: background 0.5s ease-out;   
+    -moz-transition: background 0.5s ease-out;
+    -o-transition: background 0.5s ease-out;
+    transition: background 0.5s ease-out;
+    
+    
+    background-size:1px 200px;
+    
+}
+
+.tilt-nav-btn-left{
+    border-color: var(--nav-btn-border);
+    border-left-width: 2px;
+}
+
+.tilt-nav-btn-right{
+    border-color: var(--nav-btn-border);
+    border-right-width: 2px;
+}
+
+/*Centering text in the navbar items*/
+.nav-item>a{
+    text-align: center;
+    color: white; !important;
+    font-family: bebas;
+}
+
+.nav-item:hover{
+    background-position:100px;
+}
+
+

@@ -3,11 +3,6 @@
     src: url("fonts/acid.otf");
 }
 
-@font-face{
-    font-family: "bebas";
-    src: url("fonts/BebasNeue.otf");
-}
-
 body{
     background-color: rgb(80,80,80);
 }

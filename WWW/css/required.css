@@ -1,0 +1,28 @@
+/*
+ATTENTION:
+This is a css that is imported into ALL pages. So don't change specific details inside of here.
+This is supposed to work for every page.
+If you make a change inside of this, it should be a required change for all pages.
+If you're unsure wether to add css or remove in here, think about if you only want that change on the page you're currently working on or all pages.
+If the answer is the current one you're working on then you're on the wrong css page. Please make a new one.
+*/
+
+
+
+/*Remove the blue outline that bootstrap gives its buttons (I fucking hate it and I will kill the person that re-enables it)*/
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+    
+}
+
+/*Global variables, please declare with descriptive name or descriptive comments*/
+:root{
+    /*Background color of body*/
+    --main-bg-color: #505050;
+}
+
+/*Add this class to the body in all pages!*/
+.tilt-bg{
+    background-color: var(--main-bg-color);
+}

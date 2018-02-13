@@ -1,125 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Login</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <title>TILT Crew</title>
+        <?php include 'include/bootstrap_header.php';?>
         <link rel="stylesheet" href="css/login.css">
+        
     </head>
-    <body>
-        <?php include('include/navbar.php'); ?>
-        <div class="container tlt_loginForm">
-            <div class="kpx_login">
-                <h3 class="kpx_authTitle">Login or <a href="register.php">Sign up</a></h3>
-                <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
-                            <i class="fa fa-facebook fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
-                            <i class="fa fa-twitter fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>  
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-steam" data-toggle="tooltip" data-placement="top" title="Steam">
-                            <i class="fa fa-steam fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>  
-                </div><br>
-                <!--Next row of social media buttons-->
-                <!--Example row so we can use it
-                <div class="row kpx_row-sm-offset-3 kpx_socialButtons">
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-github" data-toggle="tooltip" data-placement="top" title="GitHub">
-                            <i class="fa fa-github fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-soundcloud" data-toggle="tooltip" data-placement="top" title="SoundCloud">
-                            <i class="fa fa-soundcloud fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div>  
-                    <div class="col-xs-2 col-sm-2">
-                        <a href="#" class="btn btn-lg btn-block kpx_btn-steam" data-toggle="tooltip" data-placement="top" title="Steam">
-                            <i class="fa fa-steam fa-2x"></i>
-                            <span class="hidden-xs"></span>
-                        </a>
-                    </div> 
-                </div><br>
+    <body class="tilt-bg tilt-login">
+        <?php include 'include/navbar.php';?>
+        <section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center h-100">
+				<div class="card-wrapper">
+					<div class="brand">
+						<img src="assets/rsz_tilt.png">
+					</div>
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title">Login</h4>
+							<form method="POST">
+							 
+								<div class="form-group">
+									<label for="email">E-Mail Address</label>
 
-                Login form-->
-                <div class="row kpx_row-sm-offset-3 kpx_loginOr">
-                    <div class="col-xs-12 col-sm-6">
-                        <hr class="kpx_hrOr">
-                        <span class="kpx_spanOr">or</span>
-                    </div>
-                </div>
+									<input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+								</div>
 
-                <div class="row kpx_row-sm-offset-3">
-                    <div class="col-xs-12 col-sm-6">	
-                        <form class="kpx_loginForm" action="" autocomplete="off" method="POST">
-                            <div class="input-group">
-                                <span class="input-group-addon"><span class="fa fa-user"></span></span>
-                                <input type="text" class="form-control" name="username" placeholder="Username">
-                            </div>
-                            <br>
-										
-                            <div class="input-group">
-                                <span class="input-group-addon"><span class="fa fa-key"></span></span>
-                                <input  type="password" class="form-control" name="password" placeholder="Password">
-                            </div>
-                            <hr class="tlt_seperator"/>
-                            <button class="btn btn-lg btn-outline-primary btn-block tlt_loginButton" type="submit"><i class="fa fa-sign-in"></i> Login</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="row kpx_row-sm-offset-3">
-                    <div class="col-xs-12 col-sm-3">
-                        <p class="tlt_loginText">
-                            <label class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" value="remember-me">
-                                <span class="custom-control-indicator"></span>
-                                <span class="custom-control-description">Remember me!</span>
-                            </label>
-                        </p>
-                    </div>
-                    <div class="col-xs-12 col-sm-3">
-                        <p class="kpx_forgotPwd">
-                            <a href="#">Forgot password?</a>
-                        </p>
-                    </div>
-                </div>	    	
-            </div>
-    
+								<div class="form-group">
+									<label for="password">Password
+										<a href="forgot.html" class="float-right">
+											Forgot Password?
+										</a>
+									</label>
+									<input id="password" type="password" class="form-control" name="password" required data-eye>
+								</div>
 
+								<div class="form-group">
+									<label>
+										<input type="checkbox" name="remember"> Remember Me
+									</label>
+								</div>
 
-
-        </div>
-        <script>
-            $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            })
-        </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+								<div class="form-group no-margin">
+									<button type="submit" class="btn btn-primary btn-block">
+										Login
+									</button>
+								</div>
+								<div class="margin-top20 text-center">
+									Don't have an account? <a href="register.html">Create One</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="footer">
+						Copyright &copy; 2017 &mdash; TilT Crew
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+        
+        
+        <?php include 'include/bootstrap_footer.php';?>
+    </body>
 </html>
