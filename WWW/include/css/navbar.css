@@ -9,12 +9,6 @@
     --nav-btn-hover-gradient-stop: #999999;
 }
 
-/*Font families*/
-@font-face{
-    font-family: "bebas";
-    src: url("../css/fonts/BebasNeue.otf");
-}
-
 /*Remove the blue outline that bootstrap gives its buttons (I fucking hate it and I will kill the person that re-enables it)*/
 .btn:focus, .btn:active {
   outline: none !important;

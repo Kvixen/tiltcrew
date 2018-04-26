@@ -2,63 +2,42 @@
 <html lang="en">
     <head>
         <title>TILT Crew</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
         <!-- Bootstrap CSS -->
-        <?php
-        include "include/bootstrap_header.php";
-        ?>
+        <?php include "include/bootstrap_header.php"; ?>
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/articles.css">
     </head>
-    <body>
+    <body class="tilt-bg">
         <?php include('include/navbar.php'); ?>
         <div class="container-fluid">
-            <div class="row SelfTopBuffer">
+            <div class="row tilt-buffertop">
         
                 <div class="col-lg">
                     
                 </div>
           
-                <div class="col-lg-7 SelfContent">
+                <div class="col-lg-7 tilt-content">
                     <!-- Article -->
-                    <div class="row tlt_article">
-                        
-                        <div class="col-lg-1">
-                            
-                            <img class="img-circle" src="https://aframe.io/aframe/examples/_skies/puydesancy.jpg" style="width:60px;height:60px;">
-                            
+                    <a href="#" class="tilt-article">
+                        <div class="row tilt-articlebackground" style="background-image: url('assets/traveler.')">
+                            <span class="tilt-articlelayer tilt-articletitle">New destiny expansion?!</span>
                         </div>
-                        
-                        <div class="col-lg-4 tlt_articleTitle">
-                            
-                            <a href="#">Destiny 2 expansion!</a>
-                    
-                        </div>
-                    
-                        <div class="col-lg">
-                            
-                        </div>
-                
-                    </div>
+                    </a>
                 </div>
                 <div class="col-lg-3">
                     <div class="row">
                         <div class="col-lg-2"></div>
-                        <div class="col-lg-10 SelfContent">
+                        <div class="d-none d-lg-block col-lg-10 tilt-content">
                         </div>
                     </div>
                 </div>
-                                <div class="col-lg">
+                <div class="col-lg">
                     
                 </div>
             </div>
         </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <?php
-        include 'include/bootstrap_footer.php';
-        ?>
+    <?php include 'include/bootstrap_footer.php'; ?>
   </body>
 </html>

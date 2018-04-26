@@ -1,0 +1,27 @@
+.tilt-articlebackground{
+    min-height: 180px;
+    background-position: center;
+    background-size: 59%;
+    position: relative;
+}
+
+
+.tilt-article{
+    text-decoration: none !important;
+    color: white;
+}
+
+.tilt-article:hover{
+    color: white;
+}
+
+.tilt-articletitle{
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    font-family: bebas;
+    letter-spacing: 2px;
+    font-size: 200%;
+    text-shadow: -1px 0 #000000, 0 2px #000000, 1px 0 #000000, 0 -1px #000000;
+    /*text-shadow: 2px 2px #000000;*/
+}

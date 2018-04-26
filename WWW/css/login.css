@@ -1,7 +1,3 @@
-html,body {
-	height: 100%;
-}
-
 body.tilt-login {
 	font-size: 14px;
 }
@@ -21,7 +17,6 @@ body.tilt-login {
 
 .tilt-login .card {
 	border-color: transparent;
-	box-shadow: 0 0 40px rgba(0,0,0,.05);
 }
 
 .tilt-login .card.fat {

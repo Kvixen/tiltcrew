@@ -8,21 +8,53 @@ If the answer is the current one you're working on then you're on the wrong css 
 */
 
 
+/*!Fonts!*/
+@font-face{
+    font-family: "acid";
+    src: url("../css/fonts/acid.otf");
+}
+
+@font-face{
+    font-family: "bebas";
+    src: url("../css/fonts/BebasNeue.otf");
+}
+
 
 /*Remove the blue outline that bootstrap gives its buttons (I fucking hate it and I will kill the person that re-enables it)*/
 .btn:focus, .btn:active {
   outline: none !important;
   box-shadow: none !important;
-    
 }
 
 /*Global variables, please declare with descriptive name or descriptive comments*/
 :root{
-    /*Background color of body*/
+    /*Background color of body RGB 80 80 80*/
     --main-bg-color: #505050;
+    --main-content-color: #999999;
 }
 
-/*Add this class to the body in all pages!*/
+/*Add this class to the body in all pages that should have our set color*/
 .tilt-bg{
     background-color: var(--main-bg-color);
+}
+
+.tilt-buffertop{
+    margin-top: 50px;
+}
+
+/*Content requirements*/
+.tilt-content{
+    background-color: var(--main-content-color);
+    /*Testing below, remove in production*/
+    min-height: 800px;
+}
+
+@font-face{
+    font-family: "acid";
+    src: url("../css/fonts/acid.otf");
+}
+
+@font-face{
+    font-family: "bebas";
+    src: url("../css/fonts/BebasNeue.otf");
 }
