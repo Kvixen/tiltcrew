@@ -12,58 +12,31 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <nav class="SelfNavbar navbar navbar-expand-lg navbar-light">
-                <a class="SelfBrand navbar-brand" href="#">
-                <img src="assets/TILT.png" width="40px" height="25px" class="d-inline-block align-top" alt="">TILT Crew</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="SelfLinks navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a class="SelfDropdown nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Games</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Destiny 2</a>
-                      <a class="dropdown-item" href="#">Overwatch</a>
-                      <a class="dropdown-item" href="#">League of Legends</a>
-                      <a class="dropdown-item" href="#">World of Warcraft</a>
-                      <a class="dropdown-item" href="#">Counter Strike: Global Offensive</a>
-                      <a class="dropdown-item" href="#">Player Unknown's Battlegrounds</a>
-                    </div>
-                  </li>
-                  <li class="SelfLink nav-item">
-                    <a class="nav-link" href="#">Social</a>
-                  </li>
-                  <li class="SelfLink nav-item">
-                    <a class="nav-link" href="#">Join us</a>
-                  </li>
-                  <li class="SelfLink nav-item">
-                    <a class="nav-link" href="#">Members</a>
-                  </li>
-                  <li class="SelfLink nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                  </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
-                  <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
+        <?php include('include/navbar.php'); ?>
         <div class="container-fluid">
             <div class="row SelfTopBuffer">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-6 SelfContent"></div>
-                <div class="col-lg">
+                <div class="col-lg"></div>
+            <div class="col-lg-7 SelfContent">
+                <!-- Article -->
+                <div class="row tlt_article">        
+                    <div class="col-lg-1">
+                        <img class="img-circle" src="https://aframe.io/aframe/examples/_skies/puydesancy.jpg" style="width:60px;height:60px;">
+                    </div>
+                    <div class="col-lg-4 tlt_articleTitle">
+                        <a href="#">Destiny 2 expansion!</a>
+                    </div>
+                        <div class="col-lg"></div>
+                </div>
+                </div>
+                <div class="col-lg-3">
                     <div class="row">
-                        <div class="col-lg-2"></div>
-                        <div class="SelfContent col-lg-8 embed-responsive embed-responsive 16by9">
-                            <iframe src="http://discordi.deliriousdrunkards.com/render?id=175704217074401280&title=TILT Crew&theme=dark&join=true&abc=false&showall=false&toggle=false&shownick=true" width="300px" height="400px" frameborder="0">
-                                <p>Your browser doesn't support iframes</p>
-                            </iframe>
+                        <div class="col-lg-2">
+                    </div>
+                    <div class="col-lg-10 SelfContent">
                         </div>
                     </div>
                 </div>
+                    <div class="col-lg"></div>
             </div>
         </div>
     <!-- Optional JavaScript -->

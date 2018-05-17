@@ -1,0 +1,84 @@
+@font-face{
+    font-family: "bebas";
+    src: url("css/fonts/BebasNeue.otf");
+}
+
+.container{
+    margin: 1%;
+    padding: 0px;
+}
+
+.col-sm-2{
+    padding-left: 0px;
+    padding-right: 0px;
+    max-height: 150px;
+    max-width: 150px;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+
+.col-sm-3{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col-sm-10{
+    padding: 0px;
+    max-height: 150px;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+
+/*scale image to align with rest of the container*/
+.playerAvatar{
+    max-height: 150px;
+    max-width: 150px;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+/*overwrite bootstrap config*/
+.img-fluid{
+    max-width: 150px;
+    height: 150px;
+}
+
+/*style jumbotron to container and customized to own liking, overwriting bootstrap*/
+.jumbotron{
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+/*padding inside the jumbotron, looks nicer*/
+.container .jumbotron{
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+/*change font size element inside the jumbotron*/
+.jumbotron p{
+    font-size: 16px;
+}
+
+/*align buttons with container*/
+.tlt_profileButton{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*overrride bootstrap button css*/
+.btn{
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+    border-color: black;
+}
+
+/*override bootstrap button on hover css*/
+.btn:hover{
+    background-color: darkgray;
+    border-color: black;
+}
